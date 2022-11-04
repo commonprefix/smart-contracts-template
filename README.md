@@ -1,20 +1,23 @@
-# <h1 align="center"> Phygital Redemptions </h1>
-**Redeem physical items by burning ERC-721 & ERC-1155 tokens**
+# Smart Contracts Template
 
-![Github Actions](https://github.com/flrfinance/flr-redeem/workflows/test/badge.svg)
+> A smart contracts development demplate by Commmon Prefix.
 
-### Getting Started
- * Installation 
+## Installation 
+
 ```bash
 yarn install 
 ```
 
- * Testing
+## Testing
+ 
 ```bash
+# forge tests
 yarn test
-# to run hardhat tests
+
+# hardhat tests
 yarn test:hardhat
 ```
 
-### Dev Notes
+## Development Notes
+
 Whenever you install new libraries using Foundry, make sure to update your `remappings.txt` file by running `forge remappings > remappings.txt`. This is required because we use `hardhat-preprocessor` and the `remappings.txt` file to allow Hardhat to resolve libraries you install with Foundry.
