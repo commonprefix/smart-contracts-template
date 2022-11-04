@@ -1,6 +1,6 @@
 # Smart Contracts Template
 
-> A smart contracts development demplate by Commmon Prefix.
+> A smart contracts development template by Commmon Prefix.
 
 ## Installation 
 
